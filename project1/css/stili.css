@@ -9,7 +9,7 @@ a {
 
 div {
     display: inline-block;
-    /*border: solid 1px black;*/
+   /* border: solid 1px black;*/
 }
 .header {
     width: 100%;
@@ -35,6 +35,8 @@ h1 {
 }
 
 .sl__slide {
+	justify-content:center;
+	display: flex;
     height: 500px;
     width: 100%;
 background-image: url("../picture/begraunt.jpg");
@@ -42,14 +44,24 @@ background-image: url("../picture/begraunt.jpg");
     text-align: center;
 
 }
-.sl__img1{
-    height: auto;
-    margin-left: 13%;
+.sl__img{
+	
+    margin-right: 100px;
+	margin-top: 18px;
+    margin-bottom: 19px;
+}
+.sl__text {
+    height: 206px;
+	margin-top: 145px;
+    margin-bottom: 145px;
 }
 .s-1 {
     margin-left: 10px;
     position: relative;
     top: -5px;
+}
+.sl{
+	width: 100%;
 }
 .h-1{
     margin-top: 20px;
@@ -61,25 +73,16 @@ background-image: url("../picture/begraunt.jpg");
 .x1:hover {
     border-bottom: solid 3px #6993ef;
 }
-.sl__text {
-    margin: -321px;
-    margin-left: 47%;
-    margin-right: 16%;
-    margin-top: 8%;
-}
+
 
 .slick-slide img {
     display: block;
     margin-left: 13%;
 }
 .content{
-
-    left: 0;
-    right: 0;
-    text-align: center;
-    width: 100%;
-    height: auto;
-    position: relative;
+    margin-top: 65px;
+    justify-content:center;
+	display: flex;
 
 
 }
@@ -112,14 +115,10 @@ background-image: url("../picture/begraunt.jpg");
 
 
 .the_cohic{
-
-    left: 0;
-    right: 0;
+justify-content: center;
+    display: flex;
     text-align: center;
-    width: 100%;
-    height: auto;
-    position: relative;
-
+ 
 }
 .text-4 {
     font-size: 2.0em;
@@ -136,11 +135,43 @@ background-image: url("../picture/begraunt.jpg");
     line-height: 1.5em;
 }
 .text-x{
-    border-left: 39px;
-    left: 57px;
-    right: 0;
-    text-align: center;
-    width: 27%;
-    height: auto;
-    position: relative;
+    width: 287px;
+    width: 474px;
+    text-align: left;
+	height: 300px;
+	margin-top: 107px;
+    
 }
+.sl__Layer-l{
+	height: 65px;
+	margin-top: 217px;
+    margin-bottom: 217px;
+	margin-right: 35px;
+}
+.sl__Layer-r{
+	height: 65px;
+	margin-top: 217px;
+    margin-bottom: 217px;
+	margin-left: 35px;
+}
+
+.x8{
+	text-align: center;
+}
+.x9{
+	text-align: center;
+}
+
+.ram_1{
+	margin-right: 79px;
+}
+
+
+
+
+
+
+
+
+
+
