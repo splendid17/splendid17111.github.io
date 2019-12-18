@@ -1,8 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
+
 }
+
+
 .head{
     background:url("Rectangle.png");
     background-size: cover;
@@ -248,8 +251,6 @@
 }
 
 .flyers{
-    margin-bottom: 100px;
-
     min-width: 1400px;
     height: 150px;
     background:url("Rectangle 2 copy 5.png");
@@ -787,6 +788,7 @@ textarea{
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
+    min-width: 1400px;
 
 }
 
@@ -851,8 +853,19 @@ width: 1920px;
 
 
 
+.lab-go {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.502);
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    text-decoration: none;
 
+}
 
+.img-mid{
+
+    max-width:100%;
+    min-height: 100%;
+}
 
 
 
